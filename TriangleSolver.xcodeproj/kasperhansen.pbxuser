@@ -1,0 +1,93 @@
+// !$*UTF8*$!
+{
+	BFBAACCE122586DA00B2C34D /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BFBAACDD122586DB00B2C34D /* TriangleSolver */;
+		activeTarget = BFBAACDA122586DB00B2C34D /* TriangleSolver */;
+		codeSenseManager = BFBAACD2122586DA00B2C34D /* Code sense */;
+		executables = (
+			BFBAACDD122586DB00B2C34D /* TriangleSolver */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307393456;
+			PBXWorkspaceStateSaveDate = 307393456;
+		};
+		sourceControlManager = BFDB3068123552840086EF61 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BFBAACD2122586DA00B2C34D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BFBAACDA122586DB00B2C34D /* TriangleSolver */ = {
+		activeExec = 0;
+		executables = (
+			BFBAACDD122586DB00B2C34D /* TriangleSolver */,
+		);
+	};
+	BFBAACDD122586DB00B2C34D /* TriangleSolver */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TriangleSolver;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	BFDB3068123552840086EF61 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+}

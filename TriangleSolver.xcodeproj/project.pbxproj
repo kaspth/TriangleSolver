@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF85698D122695B700C15768 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85698C122695B700C15768 /* Triangle.m */; };
+		BF8825A013DEE47F00FF52B4 /* TriView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF88259F13DEE47F00FF52B4 /* TriView.m */; };
+		BFB3D1F313F2F7FF00949348 /* TriangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB3D1F213F2F7FF00949348 /* TriangleViewController.m */; };
+		BFBAACDF122586DB00B2C34D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBAACDE122586DB00B2C34D /* Cocoa.framework */; };
+		BFBAACE4122586DB00B2C34D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBAACE2122586DB00B2C34D /* InfoPlist.strings */; };
+		BFBAACE6122586DB00B2C34D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAACE5122586DB00B2C34D /* main.m */; };
+		BFBAACE9122586DB00B2C34D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBAACE7122586DB00B2C34D /* MainMenu.xib */; };
+		BFBAACEC122586DB00B2C34D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BFBAACEA122586DB00B2C34D /* Credits.rtf */; };
+		BFBAACEF122586DB00B2C34D /* TriangleSolverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAACEE122586DB00B2C34D /* TriangleSolverAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF85698B122695B700C15768 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Triangle.h; sourceTree = "<group>"; };
+		BF85698C122695B700C15768 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Triangle.m; sourceTree = "<group>"; };
+		BF88259E13DEE47F00FF52B4 /* TriView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriView.h; sourceTree = "<group>"; };
+		BF88259F13DEE47F00FF52B4 /* TriView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriView.m; sourceTree = "<group>"; };
+		BFB3D1F113F2F7FF00949348 /* TriangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController.h; sourceTree = "<group>"; };
+		BFB3D1F213F2F7FF00949348 /* TriangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController.m; sourceTree = "<group>"; };
+		BFBAACDB122586DB00B2C34D /* TriangleSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBAACDE122586DB00B2C34D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BFBAACE0122586DB00B2C34D /* TriangleSolver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriangleSolver-Info.plist"; sourceTree = "<group>"; };
+		BFBAACE1122586DB00B2C34D /* TriangleSolver_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleSolver_Prefix.pch; sourceTree = "<group>"; };
+		BFBAACE3122586DB00B2C34D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFBAACE5122586DB00B2C34D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFBAACE8122586DB00B2C34D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BFBAACEB122586DB00B2C34D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BFBAACED122586DB00B2C34D /* TriangleSolverAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TriangleSolverAppDelegate.h; sourceTree = "<group>"; };
+		BFBAACEE122586DB00B2C34D /* TriangleSolverAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TriangleSolverAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFBAACD8122586DB00B2C34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBAACDF122586DB00B2C34D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFBAACCC122586DA00B2C34D = {
+			isa = PBXGroup;
+			children = (
+				BFBAACD3122586DA00B2C34D /* Classes */,
+				BFBAACD4122586DB00B2C34D /* Other Sources */,
+				BFBAACD5122586DB00B2C34D /* Resources */,
+				BFBAACD6122586DB00B2C34D /* Frameworks */,
+				BFBAACDC122586DB00B2C34D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFBAACD3122586DA00B2C34D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFBAACED122586DB00B2C34D /* TriangleSolverAppDelegate.h */,
+				BFBAACEE122586DB00B2C34D /* TriangleSolverAppDelegate.m */,
+				BF88259E13DEE47F00FF52B4 /* TriView.h */,
+				BF88259F13DEE47F00FF52B4 /* TriView.m */,
+				BFB3D1F113F2F7FF00949348 /* TriangleViewController.h */,
+				BFB3D1F213F2F7FF00949348 /* TriangleViewController.m */,
+				BF85698B122695B700C15768 /* Triangle.h */,
+				BF85698C122695B700C15768 /* Triangle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFBAACD4122586DB00B2C34D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BFBAACE1122586DB00B2C34D /* TriangleSolver_Prefix.pch */,
+				BFBAACE5122586DB00B2C34D /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BFBAACD5122586DB00B2C34D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFBAACE0122586DB00B2C34D /* TriangleSolver-Info.plist */,
+				BFBAACE2122586DB00B2C34D /* InfoPlist.strings */,
+				BFBAACE7122586DB00B2C34D /* MainMenu.xib */,
+				BFBAACEA122586DB00B2C34D /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BFBAACD6122586DB00B2C34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBAACDE122586DB00B2C34D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBAACDC122586DB00B2C34D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBAACDB122586DB00B2C34D /* TriangleSolver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFBAACDA122586DB00B2C34D /* TriangleSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBAACF2122586DB00B2C34D /* Build configuration list for PBXNativeTarget "TriangleSolver" */;
+			buildPhases = (
+				BFBAACD7122586DB00B2C34D /* Sources */,
+				BFBAACD8122586DB00B2C34D /* Frameworks */,
+				BFBAACD9122586DB00B2C34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriangleSolver;
+			productName = TriangleSolver;
+			productReference = BFBAACDB122586DB00B2C34D /* TriangleSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFBAACCE122586DA00B2C34D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = BFBAACD1122586DA00B2C34D /* Build configuration list for PBXProject "TriangleSolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFBAACCC122586DA00B2C34D;
+			productRefGroup = BFBAACDC122586DB00B2C34D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBAACDA122586DB00B2C34D /* TriangleSolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBAACD9122586DB00B2C34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBAACE4122586DB00B2C34D /* InfoPlist.strings in Resources */,
+				BFBAACE9122586DB00B2C34D /* MainMenu.xib in Resources */,
+				BFBAACEC122586DB00B2C34D /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBAACD7122586DB00B2C34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBAACE6122586DB00B2C34D /* main.m in Sources */,
+				BFBAACEF122586DB00B2C34D /* TriangleSolverAppDelegate.m in Sources */,
+				BF85698D122695B700C15768 /* Triangle.m in Sources */,
+				BF8825A013DEE47F00FF52B4 /* TriView.m in Sources */,
+				BFB3D1F313F2F7FF00949348 /* TriangleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFBAACE2122586DB00B2C34D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBAACE3122586DB00B2C34D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFBAACE7122586DB00B2C34D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBAACE8122586DB00B2C34D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BFBAACEA122586DB00B2C34D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBAACEB122586DB00B2C34D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFBAACF0122586DB00B2C34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFBAACF1122586DB00B2C34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFBAACF3122586DB00B2C34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TriangleSolver_Prefix.pch;
+				INFOPLIST_FILE = "TriangleSolver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TriangleSolver;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFBAACF4122586DB00B2C34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TriangleSolver_Prefix.pch;
+				INFOPLIST_FILE = "TriangleSolver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TriangleSolver;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFBAACD1122586DA00B2C34D /* Build configuration list for PBXProject "TriangleSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBAACF0122586DB00B2C34D /* Debug */,
+				BFBAACF1122586DB00B2C34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBAACF2122586DB00B2C34D /* Build configuration list for PBXNativeTarget "TriangleSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBAACF3122586DB00B2C34D /* Debug */,
+				BFBAACF4122586DB00B2C34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFBAACCE122586DA00B2C34D /* Project object */;
+}
